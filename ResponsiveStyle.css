@@ -1,0 +1,438 @@
+/* =========================
+   DESKTOP / LAPTOP (max-width: 1200px)
+========================= */
+@media (max-width: 1200px) {
+
+    nav {
+        padding: 0 40px;
+        width: 104%;
+    }
+
+    nav ul li {
+        margin: 0 16px;
+    }
+
+    .FirstSection {
+        margin: 40px 0;
+    }
+
+    .FirstSection>div {
+        width: 40%;
+    }
+
+    .leftSection {
+        font-size: 1.8rem;
+    }
+
+    .rightSection img {
+        width: 56%;
+        margin: 30px 0;
+    }
+
+    i.fa.fa-user {
+        font-size: 22px;
+    }
+
+
+
+    /* FOOTER */
+    .footer {
+        padding: 23px 60px;
+    }
+
+    .footer>div {
+        width: 260px;
+    }
+
+    footer {
+
+        margin-top: 155px;
+
+        width: 105%;
+    }
+
+    div#contact h1 img {
+        height: 58px;
+        margin: 8px 28px;
+    }
+
+    .second li {
+        font-size: 11px;
+        display: flex;
+    }
+
+    .third ul li a {
+        font-size: 14px;
+    }
+
+    main hr {
+        margin: 145px 84px;
+    }
+
+
+    .vertical-desc {
+        position: relative;
+        top: 87px;
+        color: grey;
+        width: 141px;
+        font-size: 10px;
+    }
+}
+
+/* =========================
+   TABLET (max-width: 1024px)
+========================= */
+@media (max-width: 1024px) {
+
+    .leftSection .btn {
+
+        font-size: 11px;
+    }
+
+    nav {
+        width: 105%;
+        padding: 0 51px;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+
+    .secondSection .box {
+        flex-wrap: wrap;
+    }
+
+
+    .rightSection img {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .secondSection {
+        height: auto;
+    }
+
+    .secondSection .vertical {
+        margin: 0 95px;
+    }
+
+    main hr {
+        margin: 358px 84px;
+    }
+
+    footer {
+        margin-top: 406px;
+        width: 105%;
+    }
+
+    .footer-text-center {
+        font-size: 4px;
+    }
+
+
+    footer>div {
+        font-size: 14px;
+    }
+
+    .image-top {
+        width: 20px;
+        top: -21px;
+    }
+
+    .secondSection .vertical {
+        height: 87px;
+    }
+
+    .secondSection h2 {
+        font-size: 21px;
+    }
+
+    .rightSection img {
+        width: 49%;
+    }
+
+    nav ul li {
+        margin: 0 11px;
+    }
+
+    nav ul {
+        font-size: 14px;
+        padding-right: 26px;
+    }
+
+    .left {
+        font-size: 1.2rem;
+        padding-left: 78px;
+    }
+
+    i.fa.fa-user {
+        font-size: 19px;
+    }
+
+    .FirstSection>div {
+        width: 40%;
+    }
+
+    .leftSection .countercontainer span {
+        font-size: 3rem;
+    }
+
+    div#contact h1 img {
+        margin: 8px 102px;
+    }
+
+    .third ul li a {
+        font-size: 11px;
+    }
+
+    .company {
+        font-size: 9px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE (max-width: 768px)
+========================= */
+@media (max-width: 768px) {
+
+    .FirstSection {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .FirstSection>div {
+        padding-left: 10px;
+    }
+
+    .rightSection img {
+        width: 89%;
+    }
+
+    nav {
+        width: 113%;
+    }
+
+
+    .leftSection .btn {
+        font-size: 10px;
+    }
+
+
+    /* .sidebar {
+        display: flex;
+         mobile menu 
+    }*/
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    /* HERO SECTION */
+    .leftSection {
+        font-size: 1.5rem;
+    }
+
+    .leftSection .countercontainer span {
+        font-size: 3rem;
+    }
+
+    .rightSection img {
+        width: 75%;
+    }
+
+
+
+    .menu .onDesktop {
+        display: none;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .secondSection .vertical {
+        margin: 0 76px;
+    }
+
+    footer {
+        width: 112%;
+    }
+
+    .sidebar {
+        height: 112vh;
+    }
+
+    .vertical-title {
+        font-size: 15px;
+    }
+
+
+}
+
+
+/* =========================
+   SMALL MOBILE (max-width: 480px)
+========================= */
+@media (max-width: 480px) {
+
+    nav {
+
+        width: 135%;
+    }
+
+    .FirstSection {
+
+        text-align: start;
+    }
+
+    .FirstSection>div {
+        padding-left: 65px;
+        font-size: 12px;
+    }
+
+    .leftSection .btn {
+        font-size: 1px;
+        margin: 15px 3px;
+    }
+
+    .leftSection {
+        font-size: 1.0rem;
+    }
+
+
+    .leftSection .countercontainer span {
+        font-size: 2.5rem;
+    }
+
+    .rightSection img {
+        width: 113%;
+        margin: 0 80px;
+    }
+
+    i.fa.fa-user {
+        font-size: 18px;
+    }
+
+
+    .secondSection .box {
+        width: 113vw;
+
+    }
+
+    .secondSection .vertical {
+        margin: 0 67px;
+    }
+
+    .vertical-desc {
+        width: 80px;
+        font-size: 9px;
+    }
+
+
+    main hr {
+        margin: 407px 31px;
+    }
+
+
+    .vertical-title {
+        width: 131px;
+    }
+
+    .date {
+        font-size: 9px;
+    }
+
+    footer {
+        width: 140%;
+    }
+
+    .footer .third {
+        padding: 0 1px;
+    }
+
+
+    footer>div h1 {
+        font-size: 17px;
+    }
+
+
+    .footer>div {
+        width: 147px;
+    }
+
+
+    .footer .second {
+        padding: 0 1px;
+    }
+
+    div#contact h1 img {
+        width: 30px;
+        height: 30px;
+        margin: 8px 20px;
+    }
+
+    .second li {
+        font-size: 9px;
+    }
+
+    footer>div {
+        font-size: 1px;
+    }
+
+    .secondSection h2 {
+        font-size: 16px;
+        padding-left: 19px;
+    }
+
+    .company {
+        font-size: 7px;
+    }
+
+    .image-top {
+        width: 14px;
+        top: -16px;
+    }
+
+    .left {
+        font-size: 1.0rem;
+    }
+
+    i.fa.fa-user {
+        font-size: 16px;
+    }
+
+    .sidebar {
+
+        width: 238px;
+
+    }
+
+    .leftSection .countercontainer h2 {
+        font-size: 1.1rem;
+    }
+
+    .leftSection .countercontainer span {
+        font-size: 2.0rem;
+    }
+
+    .vertical-title {
+        font-size: 11px;
+    }
+
+    .footer-text-center {
+        font-size: 2px;
+        padding-right: 46px;
+    }
+}
