@@ -5,7 +5,7 @@
 
     nav {
         padding: 0 40px;
-        width: 104%;
+
     }
 
     nav ul li {
@@ -13,20 +13,17 @@
     }
 
     .FirstSection {
-        margin: 40px 0;
+        margin: 77px 0;
     }
 
-    .FirstSection>div {
-        width: 40%;
-    }
 
     .leftSection {
         font-size: 1.8rem;
     }
 
     .rightSection img {
-        width: 56%;
-        margin: 30px 0;
+        margin: 45px 38px;
+        max-width: 322px;
     }
 
     i.fa.fa-user {
@@ -36,9 +33,6 @@
 
 
     /* FOOTER */
-    .footer {
-        padding: 23px 60px;
-    }
 
     .footer>div {
         width: 260px;
@@ -48,7 +42,7 @@
 
         margin-top: 155px;
 
-        width: 105%;
+
     }
 
     div#contact h1 img {
@@ -90,7 +84,7 @@
     }
 
     nav {
-        width: 105%;
+
         padding: 0 51px;
     }
 
@@ -105,7 +99,6 @@
 
 
     .rightSection img {
-        width: 60%;
         margin: 20px auto;
     }
 
@@ -123,7 +116,7 @@
 
     footer {
         margin-top: 406px;
-        width: 105%;
+
     }
 
     .footer-text-center {
@@ -148,10 +141,6 @@
         font-size: 21px;
     }
 
-    .rightSection img {
-        width: 49%;
-    }
-
     nav ul li {
         margin: 0 11px;
     }
@@ -163,7 +152,7 @@
 
     .left {
         font-size: 1.2rem;
-        padding-left: 78px;
+        padding-left: 20px;
     }
 
     i.fa.fa-user {
@@ -196,90 +185,129 @@
 /* =========================
    MOBILE (max-width: 768px)
 ========================= */
+
+
 @media (max-width: 768px) {
 
-    .FirstSection {
-        margin: 40px 0;
-        text-align: center;
-    }
+     body {
+    background-color: rgb(11 33 76);
+  }
 
-    .FirstSection>div {
-        padding-left: 10px;
-    }
 
-    .rightSection img {
-        width: 89%;
+    main hr {
+        margin: 543px 84px;
     }
 
     nav {
-        width: 113%;
+        padding: 0 10px;
     }
-
-
-    .leftSection .btn {
-        font-size: 10px;
-    }
-
-
-    /* .sidebar {
-        display: flex;
-         mobile menu 
-    }*/
-
-    .left {
-        font-size: 1.2rem;
-    }
-
-    /* HERO SECTION */
-    .leftSection {
-        font-size: 1.5rem;
-    }
-
-    .leftSection .countercontainer span {
-        font-size: 3rem;
-    }
-
-    .rightSection img {
-        width: 75%;
-    }
-
-
 
     .menu .onDesktop {
         display: none;
     }
 
-    /* Show hamburger */
     .hamburger {
         display: block;
     }
 
-    .navbar {
-        padding: 0 20px;
+    .FirstSection {
+
+        padding: 0 28px;
     }
 
-    .left {
-        font-size: 1.2rem;
+
+    .FirstSection>div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .rightSection img {
+        margin: auto;
+    }
+
+    .leftSection {
+        font-size: 1.4rem;
+    }
+
+    .leftSection .btn {
+        display: inline-block;
+        font-size: 12px;
+        margin: 10px 5px;
+    }
+
+    .secondSection {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .secondSection .box {
+        flex-direction: column;
+        align-items: center;
     }
 
     .secondSection .vertical {
-        margin: 0 76px;
-    }
 
-    footer {
-        width: 112%;
-    }
-
-    .sidebar {
-        height: 112vh;
+        height: 90px;
     }
 
     .vertical-title {
-        font-size: 15px;
+
+        width: 67px;
+        font-size: 11px;
+        ;
     }
 
+    .date {
+
+        font-size: 8px;
+
+    }
+
+    .vertical-desc {
+
+        width: 72px;
+        font-size: 9px;
+    }
+
+    .image-top {
+        top: -22px;
+        left: -8px;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact h1 img {
+        margin: 10px auto;
+        display: block;
+    }
+
+    footer {
+        margin-top: 484px;
+    }
+
+    /* TEXT SIZE ADJUST */
+    .footer h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer ul li a {
+        font-size: 10px;
+    }
+
+    .footer-text-center {
+        font-size: 10px;
+        padding-top: 386px;
+        width: 100%;
+    }
 
 }
+
+
+
+
 
 
 /* =========================
@@ -287,152 +315,68 @@
 ========================= */
 @media (max-width: 480px) {
 
-    nav {
-
-        width: 135%;
-    }
-
-    .FirstSection {
-
-        text-align: start;
-    }
-
-    .FirstSection>div {
-        padding-left: 65px;
-        font-size: 12px;
-    }
-
-    .leftSection .btn {
-        font-size: 1px;
-        margin: 15px 3px;
-    }
-
-    .leftSection {
-        font-size: 1.0rem;
-    }
-
-
-    .leftSection .countercontainer span {
-        font-size: 2.5rem;
-    }
-
-    .rightSection img {
-        width: 113%;
-        margin: 0 80px;
-    }
-
-    i.fa.fa-user {
-        font-size: 18px;
-    }
-
-
-    .secondSection .box {
-        width: 113vw;
-
-    }
-
-    .secondSection .vertical {
-        margin: 0 67px;
-    }
-
-    .vertical-desc {
-        width: 80px;
-        font-size: 9px;
-    }
-
-
     main hr {
-        margin: 407px 31px;
-    }
-
-
-    .vertical-title {
-        width: 131px;
-    }
-
-    .date {
-        font-size: 9px;
-    }
-
-    footer {
-        width: 140%;
-    }
-
-    .footer .third {
-        padding: 0 1px;
-    }
-
-
-    footer>div h1 {
-        font-size: 17px;
-    }
-
-
-    .footer>div {
-        width: 147px;
-    }
-
-
-    .footer .second {
-        padding: 0 1px;
-    }
-
-    div#contact h1 img {
-        width: 30px;
-        height: 30px;
-        margin: 8px 20px;
-    }
-
-    .second li {
-        font-size: 9px;
-    }
-
-    footer>div {
-        font-size: 1px;
-    }
-
-    .secondSection h2 {
-        font-size: 16px;
-        padding-left: 19px;
-    }
-
-    .company {
-        font-size: 7px;
-    }
-
-    .image-top {
-        width: 14px;
-        top: -16px;
+        margin: 936px 84px;
     }
 
     .left {
-        font-size: 1.0rem;
+        font-size: 1rem;
     }
 
-    i.fa.fa-user {
-        font-size: 16px;
+    .leftSection {
+        font-size: 1rem;
     }
 
-    .sidebar {
+    .leftSection .btn {
+        font-size: 6px;
 
-        width: 238px;
-
-    }
-
-    .leftSection .countercontainer h2 {
-        font-size: 1.1rem;
     }
 
     .leftSection .countercontainer span {
-        font-size: 2.0rem;
+        font-size: 2rem;
     }
 
     .vertical-title {
-        font-size: 11px;
+        font-size: 8px;
+    }
+
+    .vertical-desc {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-top {
+        width: 16px;
+    }
+
+    .sidebar {
+        width: 220px;
+        height: 100vh;
+    }
+
+    .secondSection .vertical {
+        width: 2px;
+        height: 90px;
+        height: 82px;
+        margin: 3px 0;
+    }
+
+    .secondSection h2 {
+        font-size: 25px;
+        margin-bottom: 42px;
+    }
+
+    footer {
+        margin-top: 651px;
+    }
+
+    .date {
+        font-size: 6px;
     }
 
     .footer-text-center {
-        font-size: 2px;
-        padding-right: 46px;
+        font-size: 3px;
+        width: 100%;
     }
 }
