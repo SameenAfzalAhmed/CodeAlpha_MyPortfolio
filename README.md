@@ -4,8 +4,10 @@ This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
 It showcases my skills, projects, experience, and contact details in a clean and responsive design.
 
 ## 🚀 Live Demo
-👉 [View Portfolio](#)  
-*(Add your live link here – GitHub Pages / Firebase / Netlify)*
+👉 https://sameenafzalahmed.github.io/CodeAlpha_MyPortfolio/  at Github
+👉(https://sameenportfolioapp.web.app/) at Firebase
+👉(https://sameenportfolioresponsive.netlify.app/) at Netlify
+
 
 ---
 
@@ -56,18 +58,10 @@ Media queries are used to ensure a smooth experience across all screen sizes.
 
 ---
 
-## ⚙️ How to Run Locally
-
-1. Clone the repository  
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-
 👤 Author
 
 Sameen Afzal
 
 💼 Computer System Engineer
 
-🌍 Portfolio: 
-
-🔗 LinkedIn: 
+🌍 Portfolio: (https://sameenportfolioresponsive.netlify.app/)
